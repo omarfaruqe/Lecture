@@ -8,11 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		420C90F71B84BBD30020808C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420C90F61B84BBD30020808C /* AppDelegate.swift */; };
-		420C90F91B84BBD30020808C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420C90F81B84BBD30020808C /* ViewController.swift */; };
+		420C90F91B84BBD30020808C /* LecturerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420C90F81B84BBD30020808C /* LecturerViewController.swift */; };
 		420C90FC1B84BBD30020808C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 420C90FA1B84BBD30020808C /* Main.storyboard */; };
 		420C90FE1B84BBD30020808C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 420C90FD1B84BBD30020808C /* Images.xcassets */; };
 		420C91011B84BBD30020808C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 420C90FF1B84BBD30020808C /* LaunchScreen.xib */; };
 		420C910D1B84BBD30020808C /* LectureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420C910C1B84BBD30020808C /* LectureTests.swift */; };
+		420C91171B84C58F0020808C /* LecturerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420C91161B84C58F0020808C /* LecturerTableViewCell.swift */; };
+		420C91191B84CDBC0020808C /* TopicTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420C91181B84CDBC0020808C /* TopicTableViewCell.swift */; };
+		420C911B1B84CE8A0020808C /* TopicTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420C911A1B84CE8A0020808C /* TopicTableViewController.swift */; };
+		420C911D1B84CF0E0020808C /* Information.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420C911C1B84CF0E0020808C /* Information.swift */; };
+		420C911F1B84D8CC0020808C /* DetailListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420C911E1B84D8CC0020808C /* DetailListTableViewController.swift */; };
+		420C91211B84D8E10020808C /* DetailListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420C91201B84D8E10020808C /* DetailListTableViewCell.swift */; };
+		420C91231B84DF260020808C /* PlayLectureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420C91221B84DF260020808C /* PlayLectureViewController.swift */; };
+		4491091FD401AD7F196EA080 /* Pods_Lecture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FBE677F50A74CB0856F95F6 /* Pods_Lecture.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +34,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1FBE677F50A74CB0856F95F6 /* Pods_Lecture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lecture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		420C90F11B84BBD30020808C /* Lecture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lecture.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		420C90F51B84BBD30020808C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		420C90F61B84BBD30020808C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		420C90F81B84BBD30020808C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		420C90F81B84BBD30020808C /* LecturerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LecturerViewController.swift; sourceTree = "<group>"; };
 		420C90FB1B84BBD30020808C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		420C90FD1B84BBD30020808C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		420C91001B84BBD30020808C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		420C91061B84BBD30020808C /* LectureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LectureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		420C910B1B84BBD30020808C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		420C910C1B84BBD30020808C /* LectureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LectureTests.swift; sourceTree = "<group>"; };
+		420C91161B84C58F0020808C /* LecturerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LecturerTableViewCell.swift; sourceTree = "<group>"; };
+		420C91181B84CDBC0020808C /* TopicTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopicTableViewCell.swift; sourceTree = "<group>"; };
+		420C911A1B84CE8A0020808C /* TopicTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopicTableViewController.swift; sourceTree = "<group>"; };
+		420C911C1B84CF0E0020808C /* Information.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Information.swift; sourceTree = "<group>"; };
+		420C911E1B84D8CC0020808C /* DetailListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailListTableViewController.swift; sourceTree = "<group>"; };
+		420C91201B84D8E10020808C /* DetailListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailListTableViewCell.swift; sourceTree = "<group>"; };
+		420C91221B84DF260020808C /* PlayLectureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayLectureViewController.swift; sourceTree = "<group>"; };
+		5928B4A4BD68B6D548D86206 /* Pods-Lecture.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lecture.release.xcconfig"; path = "Pods/Target Support Files/Pods-Lecture/Pods-Lecture.release.xcconfig"; sourceTree = "<group>"; };
+		8A8F5DFC0712380C4D1674E3 /* Pods-Lecture.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lecture.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Lecture/Pods-Lecture.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4491091FD401AD7F196EA080 /* Pods_Lecture.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +81,8 @@
 				420C90F31B84BBD30020808C /* Lecture */,
 				420C91091B84BBD30020808C /* LectureTests */,
 				420C90F21B84BBD30020808C /* Products */,
+				69320E4D4EF0C3EFB2122615 /* Pods */,
+				AFC31C9B15ABA6E8C34A8D98 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,11 +98,16 @@
 		420C90F31B84BBD30020808C /* Lecture */ = {
 			isa = PBXGroup;
 			children = (
-				420C90F61B84BBD30020808C /* AppDelegate.swift */,
-				420C90F81B84BBD30020808C /* ViewController.swift */,
 				420C90FA1B84BBD30020808C /* Main.storyboard */,
+				420C90F81B84BBD30020808C /* LecturerViewController.swift */,
+				420C91161B84C58F0020808C /* LecturerTableViewCell.swift */,
+				420C911A1B84CE8A0020808C /* TopicTableViewController.swift */,
+				420C91181B84CDBC0020808C /* TopicTableViewCell.swift */,
+				420C911E1B84D8CC0020808C /* DetailListTableViewController.swift */,
+				420C91201B84D8E10020808C /* DetailListTableViewCell.swift */,
+				420C91221B84DF260020808C /* PlayLectureViewController.swift */,
+				420C911C1B84CF0E0020808C /* Information.swift */,
 				420C90FD1B84BBD30020808C /* Images.xcassets */,
-				420C90FF1B84BBD30020808C /* LaunchScreen.xib */,
 				420C90F41B84BBD30020808C /* Supporting Files */,
 			);
 			path = Lecture;
@@ -90,6 +116,8 @@
 		420C90F41B84BBD30020808C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				420C90F61B84BBD30020808C /* AppDelegate.swift */,
+				420C90FF1B84BBD30020808C /* LaunchScreen.xib */,
 				420C90F51B84BBD30020808C /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -112,6 +140,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		69320E4D4EF0C3EFB2122615 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8A8F5DFC0712380C4D1674E3 /* Pods-Lecture.debug.xcconfig */,
+				5928B4A4BD68B6D548D86206 /* Pods-Lecture.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AFC31C9B15ABA6E8C34A8D98 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1FBE677F50A74CB0856F95F6 /* Pods_Lecture.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -119,9 +164,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 420C91101B84BBD30020808C /* Build configuration list for PBXNativeTarget "Lecture" */;
 			buildPhases = (
+				DF539087913711343772F018 /* Check Pods Manifest.lock */,
 				420C90ED1B84BBD30020808C /* Sources */,
 				420C90EE1B84BBD30020808C /* Frameworks */,
 				420C90EF1B84BBD30020808C /* Resources */,
+				F138F4B9288E238DC1BBCBF8 /* Embed Pods Frameworks */,
+				19F3AFEA667FB05678F8F0FA /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,13 +255,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		19F3AFEA667FB05678F8F0FA /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Lecture/Pods-Lecture-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF539087913711343772F018 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F138F4B9288E238DC1BBCBF8 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Lecture/Pods-Lecture-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		420C90ED1B84BBD30020808C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				420C90F91B84BBD30020808C /* ViewController.swift in Sources */,
+				420C911D1B84CF0E0020808C /* Information.swift in Sources */,
+				420C91231B84DF260020808C /* PlayLectureViewController.swift in Sources */,
+				420C90F91B84BBD30020808C /* LecturerViewController.swift in Sources */,
+				420C91211B84D8E10020808C /* DetailListTableViewCell.swift in Sources */,
+				420C911F1B84D8CC0020808C /* DetailListTableViewController.swift in Sources */,
+				420C91191B84CDBC0020808C /* TopicTableViewCell.swift in Sources */,
 				420C90F71B84BBD30020808C /* AppDelegate.swift in Sources */,
+				420C911B1B84CE8A0020808C /* TopicTableViewController.swift in Sources */,
+				420C91171B84C58F0020808C /* LecturerTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,6 +443,7 @@
 		};
 		420C91111B84BBD30020808C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A8F5DFC0712380C4D1674E3 /* Pods-Lecture.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Lecture/Info.plist;
@@ -350,6 +454,7 @@
 		};
 		420C91121B84BBD30020808C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5928B4A4BD68B6D548D86206 /* Pods-Lecture.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Lecture/Info.plist;
@@ -411,6 +516,7 @@
 				420C91121B84BBD30020808C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		420C91131B84BBD30020808C /* Build configuration list for PBXNativeTarget "LectureTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +525,7 @@
 				420C91151B84BBD30020808C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
